@@ -25,6 +25,8 @@ int main () {
   char playAgain;
   int turn = 0;
   clearBoard(board);
+  cout << "Welcome to TicTacToe! X moves first, please enter a coordinate value (Ex: a1, b2, c3)";
+  printBoard(board);
   while (stillPlaying == true) { 
     char input[2];
       cin >> input; 
@@ -60,7 +62,7 @@ int main () {
 	}
 	else {
 	 oWinCount++;
-	 cout << playerTurn << " wins! " << playerTurn << " has " << oWinCount << " wins. X has" << xWinCount << " wins. Play Again? Enter y or n."; 
+	 cout << playerTurn << " wins! " << playerTurn << " has " << oWinCount << " wins. X has " << xWinCount << " wins. Play Again? Enter y or n."; 
 	 cin >> playAgain;
 	  if (playAgain == 'y') {
 	    turn = 0;
