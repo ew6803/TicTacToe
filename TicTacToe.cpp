@@ -65,6 +65,7 @@ int main () {
 	  if (playAgain == 'y') {
 	    turn = 0;
 	    clearBoard(board);
+	    printBoard(board); 
 	  }
 	  else {
 	    break;
@@ -77,6 +78,7 @@ int main () {
 	  if (playAgain == 'y') {
 	    turn = 0;
 	    clearBoard(board);
+	    printBoard(board);
 	  }
 	  else {
 	    break;
@@ -90,6 +92,7 @@ int main () {
 	  if (playAgain == 'y') {
 	    turn = 0;
 	    clearBoard(board);
+	    printBoard(board);
 	  }
 	  else {
 	    break;
